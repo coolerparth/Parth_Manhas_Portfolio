@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1f1f1f;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #00adb5 !important;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+/* Table */
+.table {
+    background-color: #1f1f1f;
+}
+
+/* Video Section */
+video {
+    border: 3px solid #00adb5;
+    border-radius: 10px;
+}
+
+/* Contact Form */
+form input, form textarea {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: 1px solid #00adb5;
+}
+
+form button {
+    background-color: #00adb5;
+    border: none;
+}
+
+form button:hover {
+    background-color: #007f8b;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Go to Top Button */
+.go-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00adb5;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.go-to-top:hover {
+    background-color: #007f8b;
+    transform: scale(1.1);
+}
